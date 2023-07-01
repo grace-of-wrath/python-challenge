@@ -33,7 +33,10 @@
                 -------------------------
 
         Note: 
-            Line 37 of PyPoll/main.py was written with assistance from ChatGPT. I was stuck on iterating through the dictionary
+            I referenced the webpage https://www.pythontutorial.net/python-basics/python-write-text-file/ to learn how to write to a text file. 
+            This website showed me I could set my print statements to strings and store them in a list so I could reduce the lines of code
+            needed to write to .txt, as I did in PyBank/main.py.  
+            Additionally, line 37 of PyPoll/main.py was written with assistance from ChatGPT. I was stuck on iterating through the dictionary
             and had ChatGPT explain the correct syntax. Line 37 and 38 included here for reference: 
                     for candidate, votes in candidates.items():
                         print(f"{candidate}: {round(((votes / total_votes) * 100),3)}% ({votes})")
